@@ -1,0 +1,59 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=5
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6WQUWuDMBSF3/0VwWerxtJZ+zYq+wNlMBh7uJq7NVRjSdK6UvzvM5EO4hCG+hTv
+        ufd8h3P3SP/5GmWt/B252187usiqH/hHrc9qF0Vt24YFiFPzWYIABmEJkb2KfHvTBYOTQslR5aiB
+        V67hy9vrId8/587UKhUUaGH9QmQ2AldnqErJz5o3YtgirKkqkEQ3ZG/ScBCPEeu5N4Lf5RHEFxIJ
+        Gv/Y8RqFGszcJFY+4c1Q2OjMagJqtKKxdeTOc1+PPpqib+QKJrsp+P13bdQBM7ZJnNAVpatkPc48
+        WZ5Vr+aYhkkap5Opgv+Rk3nkp228kEyzmeR1tpS8nUmmm6XkdB55k02T7evD634AmxXHPNoDAAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - public, max-age=1
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '284'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 24 Nov 2021 01:43:49 GMT
+      Expires:
+      - Wed, 24 Nov 2021 01:43:50 GMT
+      RP:
+      - t1
+      Server:
+      - BoC
+      Vary:
+      - Accept-Encoding
+      X-C60BE:
+      - ci2732-t
+      content-disposition:
+      - attachment; filename=FXUSDCAD.json
+      x-content-digest:
+      - enbf7ff4dc02508a521664a19c3bb227c425fb5307b9e5c721e4e61c434a439b2c
+      x-generated:
+      - '2021-11-24 00:05:42'
+      x-valet-mode:
+      - l
+    status:
+      code: 200
+      message: OK
+version: 1
